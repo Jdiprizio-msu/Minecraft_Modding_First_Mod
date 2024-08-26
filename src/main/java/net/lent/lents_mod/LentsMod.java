@@ -1,6 +1,7 @@
 package net.lent.lents_mod;
 
 import com.mojang.logging.LogUtils;
+import net.lent.lents_mod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -23,6 +24,8 @@ public class LentsMod
     private static final Logger LOGGER = LogUtils.getLogger();
     public LentsMod() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
