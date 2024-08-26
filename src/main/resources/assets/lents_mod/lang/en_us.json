@@ -2,5 +2,10 @@
   "item.lents_mod.zircon": "Zircon",
   "item.lents_mod.raw_zircon": "Raw Zircon",
 
+  "block.lents_mod.zircon_block": "Block of Zircon",
+  "block.lents_mod.zircon_ore": "Zircon Ore",
+  "block.lents_mod.deepslate_zircon_ore": "Deepslate Zircon Ore",
+
+
   "itemGroup.lents_mod": "Lent's Mod"
 }
